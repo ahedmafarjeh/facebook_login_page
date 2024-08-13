@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgba(240, 236, 236, 0.731);
+}
+h1{
+  color: blue;
+  font-size: 40px;
+}
+h2{
+  font-weight: normal;
+  font-size: 35px;
+  
+  
+}
+.recent_logins p {
+ margin-top: 8px;
+  margin-bottom: 20px;
+}
+.img1{
+  background-color: white;
+  width: fit-content;
+  height: 210px;
+  position: relative;
+  border-radius: 8px;
+  text-align: center;
+
+}
+.img1 img{
+  width: 160px;
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.img1 p {
+margin-top: 10px;
+font-size: 22px;
+}
+ a {
+  text-decoration: none;
+  margin-top: 5px ;
+  margin-bottom: 10px;
+
+}
+a:hover{
+  text-decoration: underline;
+}
+.register{
+  width: 150%;
+  background-color: white;
+  padding: 12px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  margin-top: 70px;
+}
+form{
+  text-align: center;
+  background-color: white;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form input{
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(172, 163, 163);
+}
+ input:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+button{
+  background-color: #0866ff;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(172, 163, 163);
+
+}
+button:hover{
+  cursor: pointer;
+}
+.create_acc{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.create_acc button{
+ background-color: #42b72a;
+ margin-top: 10px;
+}
+.content{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.msgs{
+  background-color: #fa3e3e;
+  width: 20px;
+  border-radius: 10px;
+  padding: 1px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
